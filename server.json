@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.kragos/stempa",
+  "title": "STEMPA",
+  "description": "STEMPA seals one brief every AI reads the same way, with a signed receipt.",
+  "version": "1.0.0",
+  "websiteUrl": "https://stempa.kragos.app",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stempa.kragos.app/mcp"
+    }
+  ]
+}
