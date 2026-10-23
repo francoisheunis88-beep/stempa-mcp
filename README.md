@@ -16,7 +16,30 @@ This repository is documentation only. STEMPA is a hosted service; there is noth
 
 ## Connect
 
-Step-by-step instructions for Claude, ChatGPT and Grok are in [CONNECT.md](CONNECT.md). In short: paste `https://stempa.kragos.app/mcp` into your AI's connectors, and sign in to STEMPA when asked.
+STEMPA works with Claude, ChatGPT and Grok; step-by-step instructions for each are in [CONNECT.md](CONNECT.md). In short: paste `https://stempa.kragos.app/mcp` into your AI's connectors, and sign in to STEMPA when asked.
+
+Any other MCP client that supports remote servers with OAuth connects the same way: add a remote server with the address `https://stempa.kragos.app/mcp`. The client finds the sign-in itself; there is no key to paste. In a client that reads an `mcp.json` file, the entry looks like this:
+
+```json
+{
+  "servers": {
+    "stempa": {
+      "type": "http",
+      "url": "https://stempa.kragos.app/mcp"
+    }
+  }
+}
+```
+
+The first sign-in creates a free STEMPA account.
+
+## Use it
+
+1. Say to your AI: "Grill me on [your idea]."
+2. Your AI lists what it already knows, then asks only about the gaps: up to five questions at a time, each with a suggested answer. Accept the suggestion, pick an option, or type your own.
+3. When the gaps are closed, your AI freezes the brief.
+4. Open your account at https://stempa.kragos.app and press Seal. The brief gets a fingerprint and a signed receipt.
+5. Later, in any AI you connect, ask it to read your sealed brief. It reads the same sealed version.
 
 ## Tools
 

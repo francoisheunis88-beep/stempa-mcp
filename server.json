@@ -3,7 +3,11 @@
   "name": "app.kragos/stempa",
   "title": "STEMPA",
   "description": "STEMPA seals one brief every AI reads the same way, with a signed receipt.",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/francoisheunis88-beep/stempa-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://stempa.kragos.app",
   "remotes": [
     {
