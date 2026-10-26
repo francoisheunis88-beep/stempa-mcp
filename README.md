@@ -4,7 +4,7 @@
 
 STEMPA is a remote MCP server. Your AI first lists what it already knows about a job, then asks you only about the gaps: up to five questions at a time, each with a suggested answer. You answer once, and STEMPA seals your answers into one brief with a signed receipt. Change a word and it becomes a new version.
 
-Works with Claude, ChatGPT and Grok.
+Works with Claude, ChatGPT (Plus or higher) and Grok.
 
 - Server address: `https://stempa.kragos.app/mcp`
 - Transport: Streamable HTTP
@@ -16,7 +16,7 @@ This repository is documentation only. STEMPA is a hosted service; there is noth
 
 ## Connect
 
-STEMPA works with Claude, ChatGPT and Grok; step-by-step instructions for each are in [CONNECT.md](CONNECT.md). In short: paste `https://stempa.kragos.app/mcp` into your AI's connectors, and sign in to STEMPA when asked.
+STEMPA works with Claude, ChatGPT (Plus or higher) and Grok; step-by-step instructions for each are in [CONNECT.md](CONNECT.md). In short: paste `https://stempa.kragos.app/mcp` into your AI's connectors, and sign in to STEMPA when asked.
 
 Any other MCP client that supports remote servers with OAuth connects the same way: add a remote server with the address `https://stempa.kragos.app/mcp`. The client finds the sign-in itself; there is no key to paste. In a client that reads an `mcp.json` file, the entry looks like this:
 

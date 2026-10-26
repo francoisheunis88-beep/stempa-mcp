@@ -18,7 +18,7 @@ Works on every Claude plan, including Free (Free allows one custom connector).
 
 ## ChatGPT
 
-Add STEMPA to ChatGPT as a custom MCP server. OpenAI decides which ChatGPT plans can do this.
+Works with ChatGPT Plus or higher. Add STEMPA as a custom MCP server.
 
 1. Open chatgpt.com/plugins, select the plus button, then Add custom MCP server.
 2. Give it a name, paste the address above as the Server URL, and choose OAuth.
